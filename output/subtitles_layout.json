@@ -1,0 +1,2989 @@
+{
+    "cues": [
+        {
+            "direction": "rtl",
+            "endMs": 2500,
+            "id": "cue-1",
+            "layout": {
+                "anchoredBox": {
+                    "height": 126.5,
+                    "width": 1120,
+                    "x": 80,
+                    "y": 483.5
+                },
+                "baseDirection": "rtl",
+                "baseLevel": 1,
+                "bidiLevels": [
+                    {
+                        "level": 1,
+                        "logicalIndex": 0,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 1,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 2,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 3,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 4,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 5,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 6,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 7,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 8,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 9,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 10,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 11,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 12,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 13,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 14,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 15,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 16,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 17,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 18,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 19,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 20,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 21,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 22,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 23,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 24,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 25,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 26,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 27,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 28,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 29,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 30,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 31,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 32,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 33,
+                        "visualSide": "right-to-left"
+                    }
+                ],
+                "controlCharacters": [
+                ],
+                "directionPolicy": {
+                    "currencyWithNumber": true,
+                    "emphasisIsolation": true,
+                    "europeanNumbersLtr": true,
+                    "mirrorBrackets": true,
+                    "neutralToBase": false
+                },
+                "lines": [
+                    {
+                        "baseLevel": 1,
+                        "glyphs": [
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 1,
+                                "cluster": 22,
+                                "fontId": 198,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 22,
+                                "x": 0,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 70.884,
+                                "bidiLevel": 2,
+                                "cluster": 21,
+                                "fontId": 198,
+                                "glyphId": 1214,
+                                "missing": false,
+                                "sourceIndex": 21,
+                                "x": 32.208,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 70.884,
+                                "bidiLevel": 2,
+                                "cluster": 20,
+                                "fontId": 198,
+                                "glyphId": 1380,
+                                "missing": false,
+                                "sourceIndex": 20,
+                                "x": 103.092,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 70.884,
+                                "bidiLevel": 2,
+                                "cluster": 19,
+                                "fontId": 198,
+                                "glyphId": 1642,
+                                "missing": false,
+                                "sourceIndex": 19,
+                                "x": 173.976,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 70.884,
+                                "bidiLevel": 2,
+                                "cluster": 18,
+                                "fontId": 198,
+                                "glyphId": 1380,
+                                "missing": false,
+                                "sourceIndex": 18,
+                                "x": 244.86,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 1,
+                                "cluster": 17,
+                                "fontId": 198,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 17,
+                                "x": 315.744,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 161.832,
+                                "bidiLevel": 1,
+                                "cluster": 16,
+                                "fontId": 198,
+                                "glyphId": 177,
+                                "missing": false,
+                                "sourceIndex": 16,
+                                "x": 347.952,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 49.059999999999995,
+                                "bidiLevel": 1,
+                                "cluster": 15,
+                                "fontId": 198,
+                                "glyphId": 979,
+                                "missing": false,
+                                "sourceIndex": 15,
+                                "x": 509.784,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 64.548,
+                                "bidiLevel": 1,
+                                "cluster": 14,
+                                "fontId": 198,
+                                "glyphId": 12,
+                                "missing": false,
+                                "sourceIndex": 14,
+                                "x": 558.8439999999999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 65.032,
+                                "bidiLevel": 1,
+                                "cluster": 13,
+                                "fontId": 198,
+                                "glyphId": 771,
+                                "missing": false,
+                                "sourceIndex": 13,
+                                "x": 623.3919999999999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 1,
+                                "cluster": 12,
+                                "fontId": 198,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 12,
+                                "x": 688.424,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 91.21199999999999,
+                                "bidiLevel": 1,
+                                "cluster": 11,
+                                "fontId": 198,
+                                "glyphId": 1489,
+                                "missing": false,
+                                "sourceIndex": 11,
+                                "x": 720.632,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 55.395999999999994,
+                                "bidiLevel": 1,
+                                "cluster": 10,
+                                "fontId": 198,
+                                "glyphId": 306,
+                                "missing": false,
+                                "sourceIndex": 10,
+                                "x": 811.8439999999999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 1,
+                                "cluster": 9,
+                                "fontId": 198,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 9,
+                                "x": 867.2399999999999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 69.652,
+                                "bidiLevel": 1,
+                                "cluster": 8,
+                                "fontId": 198,
+                                "glyphId": 770,
+                                "missing": false,
+                                "sourceIndex": 8,
+                                "x": 899.4479999999999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 62.964,
+                                "bidiLevel": 1,
+                                "cluster": 7,
+                                "fontId": 198,
+                                "glyphId": 560,
+                                "missing": false,
+                                "sourceIndex": 7,
+                                "x": 969.0999999999999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 33.352,
+                                "bidiLevel": 1,
+                                "cluster": 6,
+                                "fontId": 198,
+                                "glyphId": 102,
+                                "missing": false,
+                                "sourceIndex": 6,
+                                "x": 1032.0639999999999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 1,
+                                "cluster": 5,
+                                "fontId": 198,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 5,
+                                "x": 1065.416,
+                                "y": 39.6
+                            }
+                        ],
+                        "lineNumber": 0,
+                        "logicalEnd": 23,
+                        "logicalStart": 5,
+                        "width": 1097.624
+                    },
+                    {
+                        "baseLevel": 1,
+                        "glyphs": [
+                            {
+                                "advance": 36.036,
+                                "bidiLevel": 1,
+                                "cluster": 4,
+                                "fontId": 198,
+                                "glyphId": 47,
+                                "missing": false,
+                                "sourceIndex": 4,
+                                "x": 0,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 42.504,
+                                "bidiLevel": 1,
+                                "cluster": 3,
+                                "fontId": 198,
+                                "glyphId": 104,
+                                "missing": false,
+                                "sourceIndex": 3,
+                                "x": 36.036,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 72.996,
+                                "bidiLevel": 1,
+                                "cluster": 2,
+                                "fontId": 198,
+                                "glyphId": 417,
+                                "missing": false,
+                                "sourceIndex": 2,
+                                "x": 78.53999999999999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 49.059999999999995,
+                                "bidiLevel": 1,
+                                "cluster": 1,
+                                "fontId": 198,
+                                "glyphId": 979,
+                                "missing": false,
+                                "sourceIndex": 1,
+                                "x": 151.536,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 23.611328125,
+                                "bidiLevel": 1,
+                                "cluster": 23,
+                                "fontId": 1809,
+                                "glyphId": 11,
+                                "missing": false,
+                                "sourceIndex": 23,
+                                "x": 200.596,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 1,
+                                "cluster": 28,
+                                "fontId": 198,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 28,
+                                "x": 224.207328125,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 79.15599999999999,
+                                "bidiLevel": 1,
+                                "cluster": 27,
+                                "fontId": 198,
+                                "glyphId": 415,
+                                "missing": false,
+                                "sourceIndex": 27,
+                                "x": 256.415328125,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 36.036,
+                                "bidiLevel": 1,
+                                "cluster": 26,
+                                "fontId": 198,
+                                "glyphId": 47,
+                                "missing": false,
+                                "sourceIndex": 26,
+                                "x": 335.571328125,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 42.504,
+                                "bidiLevel": 1,
+                                "cluster": 25,
+                                "fontId": 198,
+                                "glyphId": 835,
+                                "missing": false,
+                                "sourceIndex": 25,
+                                "x": 371.607328125,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 72.996,
+                                "bidiLevel": 1,
+                                "cluster": 24,
+                                "fontId": 198,
+                                "glyphId": 531,
+                                "missing": false,
+                                "sourceIndex": 24,
+                                "x": 414.111328125,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 41.37890625,
+                                "bidiLevel": 2,
+                                "cluster": 29,
+                                "fontId": 1809,
+                                "glyphId": 36,
+                                "missing": false,
+                                "sourceIndex": 29,
+                                "x": 487.107328125,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 39.907999999999994,
+                                "bidiLevel": 2,
+                                "cluster": 30,
+                                "fontId": 198,
+                                "glyphId": 525,
+                                "missing": false,
+                                "sourceIndex": 30,
+                                "x": 528.486234375,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 70.884,
+                                "bidiLevel": 2,
+                                "cluster": 31,
+                                "fontId": 198,
+                                "glyphId": 907,
+                                "missing": false,
+                                "sourceIndex": 31,
+                                "x": 568.394234375,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 70.884,
+                                "bidiLevel": 2,
+                                "cluster": 32,
+                                "fontId": 198,
+                                "glyphId": 1380,
+                                "missing": false,
+                                "sourceIndex": 32,
+                                "x": 639.278234375,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 23.611328125,
+                                "bidiLevel": 1,
+                                "cluster": 33,
+                                "fontId": 1809,
+                                "glyphId": 12,
+                                "missing": false,
+                                "sourceIndex": 33,
+                                "x": 710.162234375,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 65.032,
+                                "bidiLevel": 1,
+                                "cluster": 0,
+                                "fontId": 198,
+                                "glyphId": 771,
+                                "missing": false,
+                                "sourceIndex": 0,
+                                "x": 733.7735625,
+                                "y": 39.6
+                            }
+                        ],
+                        "lineNumber": 1,
+                        "logicalEnd": 34,
+                        "logicalStart": 0,
+                        "width": 798.8055625000001
+                    }
+                ],
+                "missingGlyphs": [
+                ],
+                "totalHeight": 126.5
+            },
+            "logicalText": "مرحبا بكم في معرض 2026 (جناح A-12)",
+            "startMs": 0,
+            "styleRuns": [
+            ]
+        },
+        {
+            "direction": "rtl",
+            "endMs": 5000,
+            "id": "cue-2",
+            "layout": {
+                "anchoredBox": {
+                    "height": 189.75,
+                    "width": 1120,
+                    "x": 80,
+                    "y": 420.25
+                },
+                "baseDirection": "rtl",
+                "baseLevel": 1,
+                "bidiLevels": [
+                    {
+                        "level": 1,
+                        "logicalIndex": 0,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 1,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 2,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 3,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 4,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 5,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 6,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 7,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 8,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 9,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 10,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 11,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 12,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 13,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 14,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 15,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 16,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 17,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 18,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 19,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 20,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 21,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 22,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 23,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 24,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 25,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 26,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 27,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 28,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 29,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 30,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 31,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 32,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 33,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 34,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 35,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 36,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 37,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 38,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 39,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 40,
+                        "visualSide": "left-to-right"
+                    }
+                ],
+                "controlCharacters": [
+                ],
+                "directionPolicy": {
+                    "currencyWithNumber": true,
+                    "emphasisIsolation": true,
+                    "europeanNumbersLtr": true,
+                    "mirrorBrackets": true,
+                    "neutralToBase": false
+                },
+                "lines": [
+                    {
+                        "baseLevel": 1,
+                        "glyphs": [
+                            {
+                                "advance": 84.744,
+                                "bidiLevel": 1,
+                                "cluster": 5,
+                                "fontId": 597,
+                                "glyphId": 23,
+                                "missing": false,
+                                "sourceIndex": 5,
+                                "x": 0,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 36.564,
+                                "bidiLevel": 1,
+                                "cluster": 4,
+                                "fontId": 597,
+                                "glyphId": 138,
+                                "missing": false,
+                                "sourceIndex": 4,
+                                "x": 84.744,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 63.8,
+                                "bidiLevel": 1,
+                                "cluster": 3,
+                                "fontId": 597,
+                                "glyphId": 52,
+                                "missing": false,
+                                "sourceIndex": 3,
+                                "x": 121.30799999999999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 37.312,
+                                "bidiLevel": 1,
+                                "cluster": 2,
+                                "fontId": 597,
+                                "glyphId": 124,
+                                "missing": false,
+                                "sourceIndex": 2,
+                                "x": 185.108,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 64.812,
+                                "bidiLevel": 1,
+                                "cluster": 1,
+                                "fontId": 597,
+                                "glyphId": 86,
+                                "missing": false,
+                                "sourceIndex": 1,
+                                "x": 222.42000000000002,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 1,
+                                "cluster": 6,
+                                "fontId": 198,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 6,
+                                "x": 287.232,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 84.744,
+                                "bidiLevel": 1,
+                                "cluster": 11,
+                                "fontId": 597,
+                                "glyphId": 23,
+                                "missing": false,
+                                "sourceIndex": 11,
+                                "x": 319.44000000000005,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 36.564,
+                                "bidiLevel": 1,
+                                "cluster": 10,
+                                "fontId": 597,
+                                "glyphId": 138,
+                                "missing": false,
+                                "sourceIndex": 10,
+                                "x": 404.1840000000001,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 78.32,
+                                "bidiLevel": 1,
+                                "cluster": 9,
+                                "fontId": 597,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 9,
+                                "x": 440.7480000000001,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 70.884,
+                                "bidiLevel": 1,
+                                "cluster": 8,
+                                "fontId": 597,
+                                "glyphId": 12,
+                                "missing": false,
+                                "sourceIndex": 8,
+                                "x": 519.0680000000001,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 77.704,
+                                "bidiLevel": 1,
+                                "cluster": 7,
+                                "fontId": 597,
+                                "glyphId": 42,
+                                "missing": false,
+                                "sourceIndex": 7,
+                                "x": 589.9520000000001,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 1,
+                                "cluster": 12,
+                                "fontId": 198,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 12,
+                                "x": 667.6560000000001,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 77.704,
+                                "bidiLevel": 1,
+                                "cluster": 19,
+                                "fontId": 597,
+                                "glyphId": 42,
+                                "missing": false,
+                                "sourceIndex": 19,
+                                "x": 699.864,
+                                "y": 39.6
+                            }
+                        ],
+                        "lineNumber": 0,
+                        "logicalEnd": 20,
+                        "logicalStart": 1,
+                        "width": 777.568
+                    },
+                    {
+                        "baseLevel": 1,
+                        "glyphs": [
+                            {
+                                "advance": 63.8,
+                                "bidiLevel": 1,
+                                "cluster": 18,
+                                "fontId": 597,
+                                "glyphId": 52,
+                                "missing": false,
+                                "sourceIndex": 18,
+                                "x": 0,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 37.312,
+                                "bidiLevel": 1,
+                                "cluster": 17,
+                                "fontId": 597,
+                                "glyphId": 124,
+                                "missing": false,
+                                "sourceIndex": 17,
+                                "x": 63.8,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 64.812,
+                                "bidiLevel": 1,
+                                "cluster": 16,
+                                "fontId": 597,
+                                "glyphId": 86,
+                                "missing": false,
+                                "sourceIndex": 16,
+                                "x": 101.112,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 73.47999999999999,
+                                "bidiLevel": 1,
+                                "cluster": 15,
+                                "fontId": 597,
+                                "glyphId": 10,
+                                "missing": false,
+                                "sourceIndex": 15,
+                                "x": 165.92399999999998,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 84.87599999999999,
+                                "bidiLevel": 1,
+                                "cluster": 14,
+                                "fontId": 597,
+                                "glyphId": 107,
+                                "missing": false,
+                                "sourceIndex": 14,
+                                "x": 239.40399999999997,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 64.67999999999999,
+                                "bidiLevel": 1,
+                                "cluster": 13,
+                                "fontId": 597,
+                                "glyphId": 55,
+                                "missing": false,
+                                "sourceIndex": 13,
+                                "x": 324.28,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 1,
+                                "cluster": 20,
+                                "fontId": 198,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 20,
+                                "x": 388.96,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 23.611328125,
+                                "bidiLevel": 1,
+                                "cluster": 21,
+                                "fontId": 1809,
+                                "glyphId": 11,
+                                "missing": false,
+                                "sourceIndex": 21,
+                                "x": 421.168,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 40.744,
+                                "bidiLevel": 1,
+                                "cluster": 25,
+                                "fontId": 597,
+                                "glyphId": 24,
+                                "missing": false,
+                                "sourceIndex": 25,
+                                "x": 444.779328125,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 84.87599999999999,
+                                "bidiLevel": 1,
+                                "cluster": 24,
+                                "fontId": 597,
+                                "glyphId": 107,
+                                "missing": false,
+                                "sourceIndex": 24,
+                                "x": 485.52332812500003,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 36.564,
+                                "bidiLevel": 1,
+                                "cluster": 23,
+                                "fontId": 597,
+                                "glyphId": 138,
+                                "missing": false,
+                                "sourceIndex": 23,
+                                "x": 570.399328125,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 70.884,
+                                "bidiLevel": 1,
+                                "cluster": 22,
+                                "fontId": 597,
+                                "glyphId": 12,
+                                "missing": false,
+                                "sourceIndex": 22,
+                                "x": 606.963328125,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 1,
+                                "cluster": 26,
+                                "fontId": 198,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 26,
+                                "x": 677.847328125,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 70.884,
+                                "bidiLevel": 2,
+                                "cluster": 27,
+                                "fontId": 198,
+                                "glyphId": 1150,
+                                "missing": false,
+                                "sourceIndex": 27,
+                                "x": 710.055328125,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 23.611328125,
+                                "bidiLevel": 1,
+                                "cluster": 28,
+                                "fontId": 1809,
+                                "glyphId": 12,
+                                "missing": false,
+                                "sourceIndex": 28,
+                                "x": 780.939328125,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 1,
+                                "cluster": 29,
+                                "fontId": 198,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 29,
+                                "x": 804.55065625,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 60.5,
+                                "bidiLevel": 1,
+                                "cluster": 30,
+                                "fontId": 1809,
+                                "glyphId": 2807,
+                                "missing": false,
+                                "sourceIndex": 30,
+                                "x": 836.75865625,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 1,
+                                "cluster": 31,
+                                "fontId": 198,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 31,
+                                "x": 897.25865625,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 38.220703125,
+                                "bidiLevel": 2,
+                                "cluster": 32,
+                                "fontId": 1809,
+                                "glyphId": 40,
+                                "missing": false,
+                                "sourceIndex": 32,
+                                "x": 929.4666562499999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 41.443359375,
+                                "bidiLevel": 2,
+                                "cluster": 33,
+                                "fontId": 1809,
+                                "glyphId": 59,
+                                "missing": false,
+                                "sourceIndex": 33,
+                                "x": 967.6873593749999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 36.48046875,
+                                "bidiLevel": 2,
+                                "cluster": 34,
+                                "fontId": 1809,
+                                "glyphId": 51,
+                                "missing": false,
+                                "sourceIndex": 34,
+                                "x": 1009.1307187499999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 47.630859375,
+                                "bidiLevel": 2,
+                                "cluster": 35,
+                                "fontId": 1809,
+                                "glyphId": 50,
+                                "missing": false,
+                                "sourceIndex": 35,
+                                "x": 1045.6111875,
+                                "y": 39.6
+                            }
+                        ],
+                        "lineNumber": 1,
+                        "logicalEnd": 36,
+                        "logicalStart": 13,
+                        "width": 1093.242046875
+                    },
+                    {
+                        "baseLevel": 1,
+                        "glyphs": [
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 2,
+                                "cluster": 36,
+                                "fontId": 198,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 36,
+                                "x": 0,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 70.884,
+                                "bidiLevel": 2,
+                                "cluster": 37,
+                                "fontId": 198,
+                                "glyphId": 1380,
+                                "missing": false,
+                                "sourceIndex": 37,
+                                "x": 32.208,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 70.884,
+                                "bidiLevel": 2,
+                                "cluster": 38,
+                                "fontId": 198,
+                                "glyphId": 1642,
+                                "missing": false,
+                                "sourceIndex": 38,
+                                "x": 103.092,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 70.884,
+                                "bidiLevel": 2,
+                                "cluster": 39,
+                                "fontId": 198,
+                                "glyphId": 1354,
+                                "missing": false,
+                                "sourceIndex": 39,
+                                "x": 173.976,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 70.884,
+                                "bidiLevel": 2,
+                                "cluster": 40,
+                                "fontId": 198,
+                                "glyphId": 1642,
+                                "missing": false,
+                                "sourceIndex": 40,
+                                "x": 244.86,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 70.884,
+                                "bidiLevel": 1,
+                                "cluster": 0,
+                                "fontId": 597,
+                                "glyphId": 12,
+                                "missing": false,
+                                "sourceIndex": 0,
+                                "x": 315.744,
+                                "y": 39.6
+                            }
+                        ],
+                        "lineNumber": 2,
+                        "logicalEnd": 41,
+                        "logicalStart": 0,
+                        "width": 386.62800000000004
+                    }
+                ],
+                "missingGlyphs": [
+                ],
+                "totalHeight": 189.75
+            },
+            "logicalText": "ברוכים הבאים לתערוכה (ביתן 7) — EXPO 2030",
+            "startMs": 2500,
+            "styleRuns": [
+            ]
+        },
+        {
+            "direction": "auto",
+            "endMs": 8000,
+            "id": "cue-3",
+            "layout": {
+                "anchoredBox": {
+                    "height": 189.75,
+                    "width": 1120,
+                    "x": 80,
+                    "y": 420.25
+                },
+                "baseDirection": "ltr",
+                "baseLevel": 0,
+                "bidiLevels": [
+                    {
+                        "level": 0,
+                        "logicalIndex": 0,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 1,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 2,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 3,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 4,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 5,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 6,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 7,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 8,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 9,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 10,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 11,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 12,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 13,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 14,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 15,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 16,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 17,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 18,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 19,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 20,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 21,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 22,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 23,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 24,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 25,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 26,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 27,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 28,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 29,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 30,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 31,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 32,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 33,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 34,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 35,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 36,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 37,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 38,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 39,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 40,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 41,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 42,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 43,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 44,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 45,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 46,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 47,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 48,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 49,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 0,
+                        "logicalIndex": 50,
+                        "visualSide": "left-to-right"
+                    }
+                ],
+                "controlCharacters": [
+                ],
+                "directionPolicy": {
+                    "currencyWithNumber": true,
+                    "emphasisIsolation": true,
+                    "europeanNumbersLtr": true,
+                    "mirrorBrackets": true,
+                    "neutralToBase": false
+                },
+                "lines": [
+                    {
+                        "baseLevel": 0,
+                        "glyphs": [
+                            {
+                                "advance": 16.80078125,
+                                "bidiLevel": 0,
+                                "cluster": 1,
+                                "fontId": 1809,
+                                "glyphId": 76,
+                                "missing": false,
+                                "sourceIndex": 1,
+                                "x": 0,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 35.814453125,
+                                "bidiLevel": 0,
+                                "cluster": 2,
+                                "fontId": 1809,
+                                "glyphId": 91,
+                                "missing": false,
+                                "sourceIndex": 2,
+                                "x": 16.80078125,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 37.232421875,
+                                "bidiLevel": 0,
+                                "cluster": 3,
+                                "fontId": 1809,
+                                "glyphId": 72,
+                                "missing": false,
+                                "sourceIndex": 3,
+                                "x": 52.615234375,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 38.4140625,
+                                "bidiLevel": 0,
+                                "cluster": 4,
+                                "fontId": 1809,
+                                "glyphId": 71,
+                                "missing": false,
+                                "sourceIndex": 4,
+                                "x": 89.84765625,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 0,
+                                "cluster": 5,
+                                "fontId": 198,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 5,
+                                "x": 128.26171875,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 31.517578125,
+                                "bidiLevel": 0,
+                                "cluster": 6,
+                                "fontId": 1809,
+                                "glyphId": 86,
+                                "missing": false,
+                                "sourceIndex": 6,
+                                "x": 160.46971875,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 33.2578125,
+                                "bidiLevel": 0,
+                                "cluster": 7,
+                                "fontId": 1809,
+                                "glyphId": 70,
+                                "missing": false,
+                                "sourceIndex": 7,
+                                "x": 191.987296875,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 24.87890625,
+                                "bidiLevel": 0,
+                                "cluster": 8,
+                                "fontId": 1809,
+                                "glyphId": 85,
+                                "missing": false,
+                                "sourceIndex": 8,
+                                "x": 225.245109375,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 16.80078125,
+                                "bidiLevel": 0,
+                                "cluster": 9,
+                                "fontId": 1809,
+                                "glyphId": 76,
+                                "missing": false,
+                                "sourceIndex": 9,
+                                "x": 250.124015625,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 38.4140625,
+                                "bidiLevel": 0,
+                                "cluster": 10,
+                                "fontId": 1809,
+                                "glyphId": 83,
+                                "missing": false,
+                                "sourceIndex": 10,
+                                "x": 266.92479687499997,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 23.71875,
+                                "bidiLevel": 0,
+                                "cluster": 11,
+                                "fontId": 1809,
+                                "glyphId": 87,
+                                "missing": false,
+                                "sourceIndex": 11,
+                                "x": 305.33885937499997,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 31.517578125,
+                                "bidiLevel": 0,
+                                "cluster": 12,
+                                "fontId": 1809,
+                                "glyphId": 86,
+                                "missing": false,
+                                "sourceIndex": 12,
+                                "x": 329.05760937499997,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 1,
+                                "cluster": 22,
+                                "fontId": 198,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 22,
+                                "x": 360.57518749999997,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 50.16,
+                                "bidiLevel": 1,
+                                "cluster": 21,
+                                "fontId": 198,
+                                "glyphId": 1270,
+                                "missing": false,
+                                "sourceIndex": 21,
+                                "x": 392.78318749999994,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 94.16,
+                                "bidiLevel": 1,
+                                "cluster": 20,
+                                "fontId": 198,
+                                "glyphId": 1488,
+                                "missing": false,
+                                "sourceIndex": 20,
+                                "x": 442.9431874999999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 123.02399999999999,
+                                "bidiLevel": 1,
+                                "cluster": 19,
+                                "fontId": 198,
+                                "glyphId": 100,
+                                "missing": false,
+                                "sourceIndex": 19,
+                                "x": 537.1031874999999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 45.452,
+                                "bidiLevel": 1,
+                                "cluster": 18,
+                                "fontId": 198,
+                                "glyphId": 978,
+                                "missing": false,
+                                "sourceIndex": 18,
+                                "x": 660.1271874999999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 62.831999999999994,
+                                "bidiLevel": 1,
+                                "cluster": 17,
+                                "fontId": 198,
+                                "glyphId": 8,
+                                "missing": false,
+                                "sourceIndex": 17,
+                                "x": 705.5791874999999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 86.10799999999999,
+                                "bidiLevel": 1,
+                                "cluster": 16,
+                                "fontId": 198,
+                                "glyphId": 665,
+                                "missing": false,
+                                "sourceIndex": 16,
+                                "x": 768.4111874999999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 29.479999999999997,
+                                "bidiLevel": 1,
+                                "cluster": 15,
+                                "fontId": 198,
+                                "glyphId": 46,
+                                "missing": false,
+                                "sourceIndex": 15,
+                                "x": 854.5191874999998,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 0,
+                                "cluster": 14,
+                                "fontId": 198,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 14,
+                                "x": 883.9991874999998,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 33.22,
+                                "bidiLevel": 0,
+                                "cluster": 13,
+                                "fontId": 198,
+                                "glyphId": 171,
+                                "missing": false,
+                                "sourceIndex": 13,
+                                "x": 916.2071874999998,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 50.703125,
+                                "bidiLevel": 1,
+                                "cluster": 23,
+                                "fontId": 1809,
+                                "glyphId": 14,
+                                "missing": false,
+                                "sourceIndex": 23,
+                                "x": 949.4271874999998,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 1,
+                                "cluster": 24,
+                                "fontId": 198,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 24,
+                                "x": 1000.1303124999998,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 84.87599999999999,
+                                "bidiLevel": 1,
+                                "cluster": 29,
+                                "fontId": 597,
+                                "glyphId": 107,
+                                "missing": false,
+                                "sourceIndex": 29,
+                                "x": 1032.3383124999998,
+                                "y": 39.6
+                            }
+                        ],
+                        "lineNumber": 0,
+                        "logicalEnd": 30,
+                        "logicalStart": 1,
+                        "width": 1117.2143124999998
+                    },
+                    {
+                        "baseLevel": 0,
+                        "glyphs": [
+                            {
+                                "advance": 36.564,
+                                "bidiLevel": 1,
+                                "cluster": 28,
+                                "fontId": 597,
+                                "glyphId": 138,
+                                "missing": false,
+                                "sourceIndex": 28,
+                                "x": 0,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 64.812,
+                                "bidiLevel": 1,
+                                "cluster": 27,
+                                "fontId": 597,
+                                "glyphId": 86,
+                                "missing": false,
+                                "sourceIndex": 27,
+                                "x": 36.564,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 70.884,
+                                "bidiLevel": 1,
+                                "cluster": 26,
+                                "fontId": 597,
+                                "glyphId": 12,
+                                "missing": false,
+                                "sourceIndex": 26,
+                                "x": 101.376,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 73.47999999999999,
+                                "bidiLevel": 1,
+                                "cluster": 25,
+                                "fontId": 597,
+                                "glyphId": 10,
+                                "missing": false,
+                                "sourceIndex": 25,
+                                "x": 172.26,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 0,
+                                "cluster": 30,
+                                "fontId": 198,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 30,
+                                "x": 245.73999999999998,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 50.703125,
+                                "bidiLevel": 0,
+                                "cluster": 31,
+                                "fontId": 1809,
+                                "glyphId": 14,
+                                "missing": false,
+                                "sourceIndex": 31,
+                                "x": 277.948,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 0,
+                                "cluster": 32,
+                                "fontId": 198,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 32,
+                                "x": 328.651125,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 33.708984375,
+                                "bidiLevel": 0,
+                                "cluster": 33,
+                                "fontId": 1809,
+                                "glyphId": 47,
+                                "missing": false,
+                                "sourceIndex": 33,
+                                "x": 360.85912499999995,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 37.08203125,
+                                "bidiLevel": 0,
+                                "cluster": 34,
+                                "fontId": 1809,
+                                "glyphId": 68,
+                                "missing": false,
+                                "sourceIndex": 34,
+                                "x": 394.56810937499995,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 23.71875,
+                                "bidiLevel": 0,
+                                "cluster": 35,
+                                "fontId": 1809,
+                                "glyphId": 87,
+                                "missing": false,
+                                "sourceIndex": 35,
+                                "x": 431.65014062499995,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 16.80078125,
+                                "bidiLevel": 0,
+                                "cluster": 36,
+                                "fontId": 1809,
+                                "glyphId": 76,
+                                "missing": false,
+                                "sourceIndex": 36,
+                                "x": 455.36889062499995,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 38.349609375,
+                                "bidiLevel": 0,
+                                "cluster": 37,
+                                "fontId": 1809,
+                                "glyphId": 81,
+                                "missing": false,
+                                "sourceIndex": 37,
+                                "x": 472.16967187499995,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 0,
+                                "cluster": 38,
+                                "fontId": 198,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 38,
+                                "x": 510.51928124999995,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 70.884,
+                                "bidiLevel": 0,
+                                "cluster": 39,
+                                "fontId": 198,
+                                "glyphId": 907,
+                                "missing": false,
+                                "sourceIndex": 39,
+                                "x": 542.7272812499999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 70.884,
+                                "bidiLevel": 0,
+                                "cluster": 40,
+                                "fontId": 198,
+                                "glyphId": 1380,
+                                "missing": false,
+                                "sourceIndex": 40,
+                                "x": 613.6112812499999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 70.884,
+                                "bidiLevel": 0,
+                                "cluster": 41,
+                                "fontId": 198,
+                                "glyphId": 1354,
+                                "missing": false,
+                                "sourceIndex": 41,
+                                "x": 684.49528125,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 0,
+                                "cluster": 42,
+                                "fontId": 198,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 42,
+                                "x": 755.37928125,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 23.611328125,
+                                "bidiLevel": 0,
+                                "cluster": 43,
+                                "fontId": 1809,
+                                "glyphId": 11,
+                                "missing": false,
+                                "sourceIndex": 43,
+                                "x": 787.5872812499999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 41.5078125,
+                                "bidiLevel": 0,
+                                "cluster": 44,
+                                "fontId": 1809,
+                                "glyphId": 37,
+                                "missing": false,
+                                "sourceIndex": 44,
+                                "x": 811.1986093749999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 24.87890625,
+                                "bidiLevel": 0,
+                                "cluster": 45,
+                                "fontId": 1809,
+                                "glyphId": 85,
+                                "missing": false,
+                                "sourceIndex": 45,
+                                "x": 852.7064218749999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 37.08203125,
+                                "bidiLevel": 0,
+                                "cluster": 46,
+                                "fontId": 1809,
+                                "glyphId": 68,
+                                "missing": false,
+                                "sourceIndex": 46,
+                                "x": 877.5853281249999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 38.349609375,
+                                "bidiLevel": 0,
+                                "cluster": 47,
+                                "fontId": 1809,
+                                "glyphId": 81,
+                                "missing": false,
+                                "sourceIndex": 47,
+                                "x": 914.6673593749999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 38.4140625,
+                                "bidiLevel": 0,
+                                "cluster": 48,
+                                "fontId": 1809,
+                                "glyphId": 71,
+                                "missing": false,
+                                "sourceIndex": 48,
+                                "x": 953.0169687499999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 60.5,
+                                "bidiLevel": 0,
+                                "cluster": 49,
+                                "fontId": 1809,
+                                "glyphId": 3002,
+                                "missing": false,
+                                "sourceIndex": 49,
+                                "x": 991.4310312499999,
+                                "y": 39.6
+                            }
+                        ],
+                        "lineNumber": 1,
+                        "logicalEnd": 50,
+                        "logicalStart": 25,
+                        "width": 1051.93103125
+                    },
+                    {
+                        "baseLevel": 0,
+                        "glyphs": [
+                            {
+                                "advance": 23.611328125,
+                                "bidiLevel": 0,
+                                "cluster": 50,
+                                "fontId": 1809,
+                                "glyphId": 12,
+                                "missing": false,
+                                "sourceIndex": 50,
+                                "x": 0,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 52.20703125,
+                                "bidiLevel": 0,
+                                "cluster": 0,
+                                "fontId": 1809,
+                                "glyphId": 48,
+                                "missing": false,
+                                "sourceIndex": 0,
+                                "x": 23.611328125,
+                                "y": 39.6
+                            }
+                        ],
+                        "lineNumber": 2,
+                        "logicalEnd": 51,
+                        "logicalStart": 0,
+                        "width": 75.818359375
+                    }
+                ],
+                "missingGlyphs": [
+                ],
+                "totalHeight": 189.75
+            },
+            "logicalText": "Mixed scripts: العربية + עברית + Latin 123 (Brand™)",
+            "startMs": 5000,
+            "styleRuns": [
+            ]
+        },
+        {
+            "direction": "rtl",
+            "endMs": 10000,
+            "id": "cue-4",
+            "layout": {
+                "anchoredBox": {
+                    "height": 126.5,
+                    "width": 1120,
+                    "x": 80,
+                    "y": 483.5
+                },
+                "baseDirection": "rtl",
+                "baseLevel": 1,
+                "bidiLevels": [
+                    {
+                        "level": 1,
+                        "logicalIndex": 0,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 1,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 2,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 3,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 4,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 5,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 6,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 7,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 8,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 9,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 10,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 11,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 12,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 13,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 14,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 15,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 16,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 17,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 18,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 19,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 20,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 21,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 22,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 23,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 24,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 25,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 26,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 27,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 28,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 29,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 30,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 31,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 32,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 33,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 34,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 35,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 36,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 37,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 38,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 39,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 40,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 41,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 42,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 2,
+                        "logicalIndex": 43,
+                        "visualSide": "left-to-right"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 44,
+                        "visualSide": "right-to-left"
+                    },
+                    {
+                        "level": 1,
+                        "logicalIndex": 45,
+                        "visualSide": "right-to-left"
+                    }
+                ],
+                "controlCharacters": [
+                ],
+                "directionPolicy": {
+                    "currencyWithNumber": true,
+                    "emphasisIsolation": true,
+                    "europeanNumbersLtr": true,
+                    "mirrorBrackets": true,
+                    "neutralToBase": false
+                },
+                "lines": [
+                    {
+                        "baseLevel": 1,
+                        "glyphs": [
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 1,
+                                "cluster": 12,
+                                "fontId": 198,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 12,
+                                "x": 0,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 0,
+                                "bidiLevel": 1,
+                                "cluster": 11,
+                                "fontId": 198,
+                                "glyphId": 291,
+                                "missing": false,
+                                "sourceIndex": 11,
+                                "x": 32.208,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 123.02399999999999,
+                                "bidiLevel": 1,
+                                "cluster": 10,
+                                "fontId": 198,
+                                "glyphId": 1332,
+                                "missing": false,
+                                "sourceIndex": 10,
+                                "x": 32.208,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 1,
+                                "cluster": 9,
+                                "fontId": 198,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 9,
+                                "x": 155.23199999999997,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 0,
+                                "bidiLevel": 1,
+                                "cluster": 8,
+                                "fontId": 198,
+                                "glyphId": 291,
+                                "missing": false,
+                                "sourceIndex": 8,
+                                "x": 187.43999999999997,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 123.02399999999999,
+                                "bidiLevel": 1,
+                                "cluster": 7,
+                                "fontId": 198,
+                                "glyphId": 1265,
+                                "missing": false,
+                                "sourceIndex": 7,
+                                "x": 187.43999999999997,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 1,
+                                "cluster": 6,
+                                "fontId": 198,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 6,
+                                "x": 310.46399999999994,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 0,
+                                "bidiLevel": 1,
+                                "cluster": 5,
+                                "fontId": 198,
+                                "glyphId": 291,
+                                "missing": false,
+                                "sourceIndex": 5,
+                                "x": 342.6719999999999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 123.02399999999999,
+                                "bidiLevel": 1,
+                                "cluster": 4,
+                                "fontId": 198,
+                                "glyphId": 100,
+                                "missing": false,
+                                "sourceIndex": 4,
+                                "x": 342.6719999999999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 1,
+                                "cluster": 3,
+                                "fontId": 198,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 3,
+                                "x": 465.6959999999999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 136.048,
+                                "bidiLevel": 1,
+                                "cluster": 2,
+                                "fontId": 198,
+                                "glyphId": 305,
+                                "missing": false,
+                                "sourceIndex": 2,
+                                "x": 497.9039999999999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 1,
+                                "cluster": 1,
+                                "fontId": 198,
+                                "glyphId": 667,
+                                "missing": false,
+                                "sourceIndex": 1,
+                                "x": 633.9519999999999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 60.5,
+                                "bidiLevel": 1,
+                                "cluster": 13,
+                                "fontId": 1809,
+                                "glyphId": 2807,
+                                "missing": false,
+                                "sourceIndex": 13,
+                                "x": 666.1599999999999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 1,
+                                "cluster": 14,
+                                "fontId": 198,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 14,
+                                "x": 726.6599999999999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 33.2578125,
+                                "bidiLevel": 2,
+                                "cluster": 15,
+                                "fontId": 1809,
+                                "glyphId": 70,
+                                "missing": false,
+                                "sourceIndex": 15,
+                                "x": 758.8679999999998,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 37.017578125,
+                                "bidiLevel": 2,
+                                "cluster": 16,
+                                "fontId": 1809,
+                                "glyphId": 82,
+                                "missing": false,
+                                "sourceIndex": 16,
+                                "x": 792.1258124999998,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 58.931640625,
+                                "bidiLevel": 2,
+                                "cluster": 17,
+                                "fontId": 1809,
+                                "glyphId": 80,
+                                "missing": false,
+                                "sourceIndex": 17,
+                                "x": 829.1433906249998,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 38.4140625,
+                                "bidiLevel": 2,
+                                "cluster": 18,
+                                "fontId": 1809,
+                                "glyphId": 69,
+                                "missing": false,
+                                "sourceIndex": 18,
+                                "x": 888.0750312499998,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 16.80078125,
+                                "bidiLevel": 2,
+                                "cluster": 19,
+                                "fontId": 1809,
+                                "glyphId": 76,
+                                "missing": false,
+                                "sourceIndex": 19,
+                                "x": 926.4890937499998,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 38.349609375,
+                                "bidiLevel": 2,
+                                "cluster": 20,
+                                "fontId": 1809,
+                                "glyphId": 81,
+                                "missing": false,
+                                "sourceIndex": 20,
+                                "x": 943.2898749999998,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 16.80078125,
+                                "bidiLevel": 2,
+                                "cluster": 21,
+                                "fontId": 1809,
+                                "glyphId": 76,
+                                "missing": false,
+                                "sourceIndex": 21,
+                                "x": 981.6394843749998,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 38.349609375,
+                                "bidiLevel": 2,
+                                "cluster": 22,
+                                "fontId": 1809,
+                                "glyphId": 81,
+                                "missing": false,
+                                "sourceIndex": 22,
+                                "x": 998.4402656249998,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 38.4140625,
+                                "bidiLevel": 2,
+                                "cluster": 23,
+                                "fontId": 1809,
+                                "glyphId": 74,
+                                "missing": false,
+                                "sourceIndex": 23,
+                                "x": 1036.789875,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 2,
+                                "cluster": 24,
+                                "fontId": 198,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 24,
+                                "x": 1075.2039375,
+                                "y": 39.6
+                            }
+                        ],
+                        "lineNumber": 0,
+                        "logicalEnd": 25,
+                        "logicalStart": 1,
+                        "width": 1107.4119375
+                    },
+                    {
+                        "baseLevel": 1,
+                        "glyphs": [
+                            {
+                                "advance": 58.931640625,
+                                "bidiLevel": 2,
+                                "cluster": 25,
+                                "fontId": 1809,
+                                "glyphId": 80,
+                                "missing": false,
+                                "sourceIndex": 25,
+                                "x": 0,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 37.08203125,
+                                "bidiLevel": 2,
+                                "cluster": 26,
+                                "fontId": 1809,
+                                "glyphId": 68,
+                                "missing": false,
+                                "sourceIndex": 26,
+                                "x": 58.931640625,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 24.87890625,
+                                "bidiLevel": 2,
+                                "cluster": 27,
+                                "fontId": 1809,
+                                "glyphId": 85,
+                                "missing": false,
+                                "sourceIndex": 27,
+                                "x": 96.013671875,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 35.041015625,
+                                "bidiLevel": 2,
+                                "cluster": 28,
+                                "fontId": 1809,
+                                "glyphId": 78,
+                                "missing": false,
+                                "sourceIndex": 28,
+                                "x": 120.892578125,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 31.517578125,
+                                "bidiLevel": 2,
+                                "cluster": 29,
+                                "fontId": 1809,
+                                "glyphId": 86,
+                                "missing": false,
+                                "sourceIndex": 29,
+                                "x": 155.93359375,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 2,
+                                "cluster": 30,
+                                "fontId": 198,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 30,
+                                "x": 187.451171875,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 37.08203125,
+                                "bidiLevel": 2,
+                                "cluster": 31,
+                                "fontId": 1809,
+                                "glyphId": 68,
+                                "missing": false,
+                                "sourceIndex": 31,
+                                "x": 219.659171875,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 38.349609375,
+                                "bidiLevel": 2,
+                                "cluster": 32,
+                                "fontId": 1809,
+                                "glyphId": 81,
+                                "missing": false,
+                                "sourceIndex": 32,
+                                "x": 256.74120312499997,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 38.4140625,
+                                "bidiLevel": 2,
+                                "cluster": 33,
+                                "fontId": 1809,
+                                "glyphId": 71,
+                                "missing": false,
+                                "sourceIndex": 33,
+                                "x": 295.09081249999997,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 2,
+                                "cluster": 34,
+                                "fontId": 198,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 34,
+                                "x": 333.50487499999997,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 16.80078125,
+                                "bidiLevel": 2,
+                                "cluster": 35,
+                                "fontId": 1809,
+                                "glyphId": 79,
+                                "missing": false,
+                                "sourceIndex": 35,
+                                "x": 365.71287499999994,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 16.80078125,
+                                "bidiLevel": 2,
+                                "cluster": 36,
+                                "fontId": 1809,
+                                "glyphId": 76,
+                                "missing": false,
+                                "sourceIndex": 36,
+                                "x": 382.51365624999994,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 38.4140625,
+                                "bidiLevel": 2,
+                                "cluster": 37,
+                                "fontId": 1809,
+                                "glyphId": 74,
+                                "missing": false,
+                                "sourceIndex": 37,
+                                "x": 399.31443749999994,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 37.08203125,
+                                "bidiLevel": 2,
+                                "cluster": 38,
+                                "fontId": 1809,
+                                "glyphId": 68,
+                                "missing": false,
+                                "sourceIndex": 38,
+                                "x": 437.72849999999994,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 23.71875,
+                                "bidiLevel": 2,
+                                "cluster": 39,
+                                "fontId": 1809,
+                                "glyphId": 87,
+                                "missing": false,
+                                "sourceIndex": 39,
+                                "x": 474.81053124999994,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 38.349609375,
+                                "bidiLevel": 2,
+                                "cluster": 40,
+                                "fontId": 1809,
+                                "glyphId": 88,
+                                "missing": false,
+                                "sourceIndex": 40,
+                                "x": 498.52928124999994,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 24.87890625,
+                                "bidiLevel": 2,
+                                "cluster": 41,
+                                "fontId": 1809,
+                                "glyphId": 85,
+                                "missing": false,
+                                "sourceIndex": 41,
+                                "x": 536.8788906249999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 37.232421875,
+                                "bidiLevel": 2,
+                                "cluster": 42,
+                                "fontId": 1809,
+                                "glyphId": 72,
+                                "missing": false,
+                                "sourceIndex": 42,
+                                "x": 561.7577968749999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 31.517578125,
+                                "bidiLevel": 2,
+                                "cluster": 43,
+                                "fontId": 1809,
+                                "glyphId": 86,
+                                "missing": false,
+                                "sourceIndex": 43,
+                                "x": 598.9902187499999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 72.116,
+                                "bidiLevel": 1,
+                                "cluster": 45,
+                                "fontId": 198,
+                                "glyphId": 704,
+                                "missing": false,
+                                "sourceIndex": 45,
+                                "x": 630.5077968749999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 32.208,
+                                "bidiLevel": 1,
+                                "cluster": 44,
+                                "fontId": 198,
+                                "glyphId": 3,
+                                "missing": false,
+                                "sourceIndex": 44,
+                                "x": 702.6237968749999,
+                                "y": 39.6
+                            },
+                            {
+                                "advance": 29.479999999999997,
+                                "bidiLevel": 1,
+                                "cluster": 0,
+                                "fontId": 198,
+                                "glyphId": 46,
+                                "missing": false,
+                                "sourceIndex": 0,
+                                "x": 734.8317968749999,
+                                "y": 39.6
+                            }
+                        ],
+                        "lineNumber": 1,
+                        "logicalEnd": 46,
+                        "logicalStart": 0,
+                        "width": 764.3117968749999
+                    }
+                ],
+                "missingGlyphs": [
+                ],
+                "totalHeight": 126.5
+            },
+            "logicalText": "اﻟﻒ بَ تَ ثَ — combining marks and ligatures ﻻ",
+            "startMs": 8000,
+            "styleRuns": [
+            ]
+        }
+    ],
+    "fps": 25,
+    "videoHeight": 720,
+    "videoWidth": 1280
+}

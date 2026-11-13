@@ -23,3 +23,38 @@ __pycache__/
 *.log
 .env
 .env.*
+
+# Subtitle workbench
+.deps/
+src/build/
+tests/build-*/
+tests/*.qmake.stash
+src/.qmake.stash
+src/Makefile
+tests/Makefile
+moc_*.cpp
+*.o
+output/
+
+# In-source qmake products from early builds
+/src/subtitler
+/tests/test_shaping
+/src/moc_predefs.h
+/tests/moc_predefs.h
+
+# Keep the delivered video, layout data and reproducible sample renders
+!/output/
+/output/*
+!/output/subtitles.mp4
+!/output/subtitles_layout.json
+!/output/layout-data.json
+!/output/gui.png
+!/output/arabic-ligature.png
+!/output/arabic-combining-mark.png
+!/output/hebrew-digits-brackets.png
+!/output/latin-digits-in-rtl.png
+!/output/mixed-scripts-brand.png
+!/output/hebrew-latin-alternation.png
+!/output/forced-ltr-arabic.png
+!/output/bidi-control-visible.png
+!/output/wrapping-long-line.png
