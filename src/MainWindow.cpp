@@ -19,7 +19,9 @@
 #include <QDir>
 #include <QStandardPaths>
 #include <QStatusBar>
+#include <QTextCursor>
 #include <numeric>
+#include <algorithm>
 
 namespace sub {
 
@@ -98,6 +100,14 @@ void MainWindow::buildUi()
                     reshapeCurrent();
                 }
             });
+    // The editor selects in logical text; the preview highlights the same
+    // logical range at the cluster positions the shaper computed. Never the
+    // other way around: selection never rewrites or reverses the text.
+    connect(m_editor, &QPlainTextEdit::selectionChanged, this, [this] {
+        const int a = m_editor->textCursor().selectionStart();
+        const int b = m_editor->textCursor().selectionEnd();
+        if (m_preview) m_preview->setSelection(a, b);
+    });
     left->addWidget(new QLabel(tr("Logical text editor")));
     left->addWidget(m_editor, 3);
 
@@ -122,6 +132,19 @@ void MainWindow::buildUi()
     auto *center = new QVBoxLayout;
     m_preview = new PreviewWidget(m_fm.get());
     center->addWidget(m_preview, 5);
+    // Clicking/dragging the actual glyphs selects the logical characters they
+    // came from, so editing a mixed-direction run acts on the stored text.
+    connect(m_preview, &PreviewWidget::selectionEdited, this,
+            [this](int start, int end) {
+                const int n = m_editor->toPlainText().size();
+                start = std::clamp(start, 0, n);
+                end = std::clamp(end, 0, n);
+                QTextCursor cur = m_editor->textCursor();
+                cur.setPosition(start);
+                cur.setPosition(end, QTextCursor::KeepAnchor);
+                m_editor->setTextCursor(cur);
+                m_preview->setSelection(start, end);
+            });
 
     m_diagLabel = new QLabel;
     m_diagLabel->setWordWrap(true);
@@ -292,6 +315,11 @@ void MainWindow::reshapeCurrent()
             notes << QStringLiteral("  [%1] %2")
                 .arg(m.logicalIndex)
                 .arg(m.reason);
+    }
+    if (!m_lastDiag.warnings.isEmpty()) {
+        notes << tr("Logical/visual mapping warnings (selection may be "
+                    "unreliable):");
+        for (const QString &w : m_lastDiag.warnings) notes << "  " + w;
     }
     notes << tr("%1 control/bidi characters listed below")
              .arg(m_lastDiag.controls.size());

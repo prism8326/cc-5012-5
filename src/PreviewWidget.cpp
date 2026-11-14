@@ -2,6 +2,7 @@
 
 #include <QPainter>
 #include <QPainterPath>
+#include <QMouseEvent>
 #include <QStaticText>
 #include <cstring>
 #include <cmath>
@@ -12,6 +13,7 @@ PreviewWidget::PreviewWidget(FontManager *fm, QWidget *parent)
     : QWidget(parent), m_fm(fm)
 {
     setMinimumSize(720, 420);
+    setMouseTracking(false);
 }
 
 void PreviewWidget::setContent(const ShapedParagraph *para,
@@ -22,6 +24,63 @@ void PreviewWidget::setContent(const ShapedParagraph *para,
     m_cfg = cfg;
     m_diag = diag;
     update();
+}
+
+void PreviewWidget::setSelection(int logicalStart, int logicalEnd)
+{
+    if (logicalEnd < logicalStart) std::swap(logicalStart, logicalEnd);
+    if (m_selStart == logicalStart && m_selEnd == logicalEnd) return;
+    m_selStart = logicalStart;
+    m_selEnd = logicalEnd;
+    update();
+}
+
+// Map a widget-space point back to a cluster, using the same geometry the
+// painter uses. Hit testing goes through the shaped cluster positions rather
+// than through Qt's own text layout, so the highlight can never disagree with
+// the pixels the renderer drew.
+PreviewWidget::Hit PreviewWidget::hitTest(const QPointF &point) const
+{
+    Hit hit;
+    if (!m_para || !m_cfg || m_para->lines.isEmpty()) return hit;
+    const LayoutConfig &cfg = *m_cfg;
+    const double sx = width() / cfg.videoWidth;
+    const double sy = height() / cfg.videoHeight;
+    const double vx = point.x() / sx;
+    const double vy = point.y() / sy;
+
+    SubtitleRenderer renderer(m_fm);
+    const QRectF box = renderer.computeBox(*m_para, cfg);
+    const double lineStep = (cfg.pointSize * 0.9 + cfg.pointSize * 0.25)
+                            * cfg.lineSpacing;
+    if (vy < box.top()) return hit;
+    const int lineIdx = int((vy - box.top()) / lineStep);
+    if (lineIdx < 0 || lineIdx >= m_para->lines.size()) return hit;
+    const ShapedLine &line = m_para->lines[lineIdx];
+    double x = box.left();
+    if (line.baseLevel & 1) x = box.right() - line.width;
+    double local = vx - x;
+    int found = -1;
+    for (int i = 0; i < line.glyphs.size(); ++i) {
+        const ShapedGlyph &g = line.glyphs[i];
+        const double end = g.xPosition + g.xAdvance;
+        if (local >= g.xPosition && local < end) { found = i; break; }
+        if (g.xAdvance > 0 && local < g.xPosition) { found = i; break; }
+    }
+    if (found < 0 && !line.glyphs.isEmpty()) found = line.glyphs.size() - 1;
+    if (found < 0) return hit;
+    hit.line = lineIdx;
+    hit.glyph = found;
+    hit.sourceIndex = line.glyphs[found].sourceIndex;
+    return hit;
+}
+
+static void paintCellHighlight(QPainter &p, const ShapedGlyph &g,
+                               double lineX, double baseline, double pointSize)
+{
+    const QRectF cell(lineX + g.xPosition, baseline - pointSize * 0.95,
+                      std::max(g.xAdvance, pointSize * 0.18), pointSize * 1.2);
+    p.fillRect(cell, QColor(90, 150, 255, 80));
 }
 
 void PreviewWidget::paintEvent(QPaintEvent *)
@@ -61,6 +120,16 @@ void PreviewWidget::paintEvent(QPaintEvent *)
         double x = box.left();
         if (line.baseLevel & 1) x = box.right() - line.width;
         const double baseline = y + line.ascent;
+
+        // Selection cells are painted before the glyphs so the text stays
+        // legible on top. Logical-range -> visual cells already happened in
+        // the shaper; here we only consult each glyph's source span.
+        if (m_selStart >= 0 && m_selEnd > m_selStart) {
+            for (const ShapedGlyph &g : line.glyphs)
+                if (g.sourceIndex < m_selEnd && g.sourceEnd > m_selStart)
+                    paintCellHighlight(p, g, x, baseline, cfg.pointSize);
+        }
+
         for (const ShapedGlyph &g : line.glyphs) {
             LoadedFont *f = m_fm->byId(g.fontId);
             if (!f) continue;
@@ -122,6 +191,19 @@ void PreviewWidget::paintEvent(QPaintEvent *)
                (m_para->baseLevel & 1)
                    ? tr("paragraph base: RTL (level 1)")
                    : tr("paragraph base: LTR (level 0)"));
+    // Mapping anomalies are drawn over the video itself, so a broken
+    // logical/visual map is visible where the glyphs are, not only in a
+    // caption. The preview never hides a failure behind a plausible render.
+    if (m_diag && !m_diag->warnings.isEmpty()) {
+        const QRectF banner(24, 54, cfg.videoWidth - 48, 44);
+        p.fillRect(banner, QColor(150, 30, 30, 200));
+        p.setPen(Qt::white);
+        QFont wf = p.font();
+        wf.setPointSize(14);
+        p.setFont(wf);
+        p.drawText(banner.adjusted(12, 0, -12, 0), Qt::AlignVCenter,
+                   tr("Mapping warning: %1").arg(m_diag->warnings.first()));
+    }
     p.restore();
 
     // Logical-text strip beneath the video, in logical order with indices.
@@ -141,6 +223,51 @@ void PreviewWidget::paintEvent(QPaintEvent *)
     p.setPen(QColor(255, 170, 90));
     p.drawText(12, height() - 24,
                tr("glyph colors: warm = RTL level, neutral = LTR level"));
+}
+
+void PreviewWidget::mousePressEvent(QMouseEvent *e)
+{
+    if (!m_para) return;
+    const Hit h = hitTest(e->position());
+    if (h.line < 0) return;
+    m_dragging = true;
+    // Clicking any glyph selects the whole shaping cluster it belongs to, so
+    // a lam-alef ligature or a base+combining-mark pair is never split.
+    int a = h.sourceIndex, b = h.sourceIndex + 1;
+    for (const ShapedCluster &c : m_para->clusters)
+        if (c.sourceStart <= h.sourceIndex && c.sourceEnd > h.sourceIndex) {
+            a = c.sourceStart;
+            b = c.sourceEnd;
+            break;
+        }
+    m_selStart = a;
+    m_selEnd = b;
+    update();
+    emit selectionEdited(m_selStart, m_selEnd);
+}
+
+void PreviewWidget::mouseMoveEvent(QMouseEvent *e)
+{
+    if (!m_dragging || !m_para) return;
+    const Hit h = hitTest(e->position());
+    if (h.line < 0) return;
+    // Extend in logical space by whole clusters: a drag over the first
+    // character of a ligature or a base+mark selects the whole cluster.
+    int a = std::min(m_selStart, h.sourceIndex);
+    int b = std::max(m_selEnd, h.sourceIndex + 1);
+    for (const ShapedCluster &c : m_para->clusters) {
+        if (c.sourceStart < a && c.sourceEnd > a) a = c.sourceStart;
+        if (c.sourceStart < b && c.sourceEnd > b) b = c.sourceEnd;
+    }
+    m_selStart = a;
+    m_selEnd = b;
+    update();
+    emit selectionEdited(m_selStart, m_selEnd);
+}
+
+void PreviewWidget::mouseReleaseEvent(QMouseEvent *)
+{
+    m_dragging = false;
 }
 
 } // namespace sub

@@ -106,12 +106,28 @@ QJsonObject ProjectStore::layoutJson(const ShapedParagraph &para,
         lo["logicalStart"] = l.logicalStart;
         lo["logicalEnd"] = l.logicalEnd;
         lo["width"] = l.width;
+        QJsonArray clusters;
+        for (const ShapedCluster &c : para.clusters) {
+            if (c.lineNumber != l.lineNumber) continue;
+            QJsonObject co;
+            co["clusterId"] = c.id;
+            co["sourceStart"] = c.sourceStart;
+            co["sourceEnd"] = c.sourceEnd;
+            co["visualSlot"] = c.visualSlot;
+            co["bidiLevel"] = c.bidiLevel;
+            co["glyphStart"] = c.glyphStart;
+            co["glyphCount"] = c.glyphCount;
+            clusters.append(co);
+        }
+        lo["clusters"] = clusters;
         QJsonArray glyphs;
         for (const ShapedGlyph &g : l.glyphs) {
             QJsonObject go;
             go["glyphId"] = int(g.glyphId);
-            go["sourceIndex"] = g.sourceIndex;
-            go["cluster"] = g.cluster;
+            go["clusterId"] = g.clusterId;
+            go["sourceStart"] = g.sourceIndex;
+            go["sourceEnd"] = g.sourceEnd;
+            go["visualSlot"] = g.visualSlot;
             go["bidiLevel"] = g.bidiLevel;
             go["x"] = g.xPosition;
             go["y"] = g.yPosition;
@@ -126,6 +142,14 @@ QJsonObject ProjectStore::layoutJson(const ShapedParagraph &para,
     out["lines"] = lines;
     out["missingGlyphs"] = diag.toJson();
 
+    QJsonObject mapping;
+    mapping["mappingVersion"] = 2;
+    mapping["clusterLevel"] = "grapheme";
+    mapping["bidiBaseLevel"] = para.baseLevel;
+    mapping["clusterCount"] = para.clusters.size();
+    mapping["warnings"] = QJsonArray::fromStringList(diag.warnings);
+    out["logicalVisualMapping"] = mapping;
+
     QJsonArray controls;
     for (const ControlCharHit &c : diag.controls) {
         QJsonObject co;
@@ -135,6 +159,7 @@ QJsonObject ProjectStore::layoutJson(const ShapedParagraph &para,
         controls.append(co);
     }
     out["controlCharacters"] = controls;
+    out["directionPolicyApplied"] = cfg.direction.toJson();
     return out;
 }
 

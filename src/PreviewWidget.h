@@ -21,16 +21,35 @@ public:
                     const LayoutConfig *cfg,
                     const ShapeDiagnostics *diag);
 
+    // Selection is stored as a logical UTF-16 range and painted by mapping it
+    // through the rendered cluster positions. The logical strip always draws
+    // the backing-stored characters, so editing a mixed-direction selection
+    // acts on the same characters the preview highlights.
+    void setSelection(int logicalStart, int logicalEnd);
+    QPair<int, int> selection() const { return {m_selStart, m_selEnd}; }
+
     QSize sizeHint() const override { return {960, 540}; }
+
+signals:
+    void selectionEdited(int logicalStart, int logicalEnd);
 
 protected:
     void paintEvent(QPaintEvent *) override;
+    void mousePressEvent(QMouseEvent *) override;
+    void mouseMoveEvent(QMouseEvent *) override;
+    void mouseReleaseEvent(QMouseEvent *) override;
 
 private:
+    struct Hit { int line = -1; int glyph = -1; int sourceIndex = -1; };
+    Hit hitTest(const QPointF &point) const;
+
     FontManager *m_fm;
     const ShapedParagraph *m_para = nullptr;
     const LayoutConfig *m_cfg = nullptr;
     const ShapeDiagnostics *m_diag = nullptr;
+    int m_selStart = -1;
+    int m_selEnd = -1;
+    bool m_dragging = false;
 };
 
 } // namespace sub

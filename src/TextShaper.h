@@ -12,6 +12,15 @@
 
 namespace sub {
 
+// One contiguous visual run of cluster cells selected by a logical range.
+// Several ranges per line are possible when a logical selection crosses a
+// nested direction (e.g. an embedded LTR number inside RTL prose).
+struct VisualRange {
+    int lineNumber = -1;
+    int firstGlyph = -1;   // index into ShapedLine::glyphs (visual order)
+    int glyphCount = 0;
+};
+
 // Diagnostics produced while shaping. These are surfaced in the UI and in the
 // layout data; an export is aborted when missing glyphs are present unless the
 // caller explicitly acknowledges them.
@@ -45,11 +54,23 @@ public:
 
     // Re-wrap an already bidi-resolved paragraph at a new width. The bidi
     // pass and shaping are reused; only line breaks and anchors are rebuilt.
-    // Paragraph base direction is re-established per line from baseLevel.
+    // Each candidate line is reordered with FriBidi at its own logical offset,
+    // so line-end boundaries follow UAX #9 L1/L2 rather than a global order.
     QVector<ShapedLine> wrap(const ShapedParagraph &base,
                              double maxWidthPx,
                              double pixelSize,
                              double lineSpacing) const;
+
+    // Cluster-aware selection mapping. A logical UTF-16 range maps to the
+    // visual cells of every cluster whose source span it intersects, split
+    // into contiguous visual ranges per line.
+    QVector<VisualRange> visualRangesForLogicalRange(
+        const ShapedParagraph &para, int logicalStart, int logicalEnd) const;
+
+    // Inverse hit test: the logical UTF-16 index of the cluster occupying a
+    // visual glyph cell. Returns -1 when the coordinates are out of range.
+    int logicalIndexAtVisualGlyph(const ShapedParagraph &para, int lineNumber,
+                                  int glyphIndex) const;
 
 private:
     struct Unit {                 // one Unicode codepoint, mapped to source
@@ -74,32 +95,39 @@ private:
                                        const LayoutConfig &cfg,
                                        ShapeDiagnostics &diag) const;
 
-    struct GlyphRecord {
-        uint glyphId;
-        int unitIndex;           // index into Unit vector
-        int logicalIndex;        // source text index (from cluster)
-        int bidiLevel;
-        double xOffset, yOffset, xAdvance;
-        int fontId;
-        bool missing;
+    // One shaping cluster in logical order. Its source span is the full
+    // UTF-16 range consumed by the cluster (ligature letters, base+marks).
+    struct ClusterDesc {
+        int unitStart = -1;
+        int unitEnd = -1;      // one past the last codepoint unit
+        int sourceStart = -1;
+        int sourceEnd = -1;
+        int level = 0;
+        int fontId = -1;
+        int glyphStart = -1;   // index into ShapedParagraph::shapedGlyphs
+        int glyphCount = 0;
+        double width = 0;
     };
 
-    QVector<GlyphRecord> shapeSegments(const QVector<Unit> &units,
-                                       const QVector<FontSegment> &segments,
-                                       const QVector<FriBidiLevel> &levels,
-                                       bool mirrorBrackets,
-                                       double pixelSize) const;
+    // Split font segments at resolved bidi-level changes. Each piece is
+    // shaped once with one direction, so Arabic joining never depends on a
+    // majority vote over mixed levels.
+    void shapePieces(ShapedParagraph &para,
+                     const QVector<Unit> &units,
+                     const QVector<FontSegment> &segments,
+                     const QVector<FriBidiLevel> &levels,
+                     bool mirrorBrackets,
+                     double pixelSize) const;
 
-    ShapedGlyph toShaped(const GlyphRecord &g) const;
+    QVector<ClusterDesc> buildClusters(const ShapedParagraph &para) const;
 
-    // Break a fully positioned visual glyph stream into lines without ever
-    // touching logical order. Break opportunities come from Unicode word
-    // boundaries mapped through the source indices stored on each glyph.
-    QVector<ShapedLine> wrapParagraph(const QVector<ShapedGlyph> &visualGlyphs,
-                                      const QString &logicalText,
-                                      double maxWidthPx,
-                                      const LayoutConfig &cfg,
-                                      int baseLevel) const;
+    // Break the logical cluster stream into lines and reorder each line
+    // independently.
+    void layoutLines(ShapedParagraph &para, double maxWidthPx,
+                     double pixelSize, double lineSpacing) const;
+
+    void validateMapping(const ShapedParagraph &para,
+                         ShapeDiagnostics &diag) const;
 
     FontManager *m_fm;
 };
