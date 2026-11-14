@@ -49,6 +49,8 @@ output/
 !/output/subtitles_layout.json
 !/output/layout-data.json
 !/output/gui.png
+!/output/gui-selection.png
+!/output/gui-warning-banner.png
 !/output/arabic-ligature.png
 !/output/arabic-combining-mark.png
 !/output/hebrew-digits-brackets.png
